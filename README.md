@@ -3,7 +3,8 @@ Test solution
 
 How to install?
 ===============
-Just clone this repository and install flask, I recomend [virtualenv]('http://docs.python-guide.org/en/latest/dev/virtualenvs/')
+Just clone this repository and install flask, I recomend [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) and [pip](https://packaging.python.org/tutorials/installing-packages/) to do this job.
+
 
 How to run?
 ===========
@@ -22,5 +23,7 @@ Alternatively you can use python -m flask:
 $ export FLASK_APP=app.py
 $ python -m flask run
  * Running on http://127.0.0.1:5000/
+
+
 
 
