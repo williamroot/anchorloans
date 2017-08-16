@@ -19,7 +19,7 @@ class CreditCardValidator(object):
         """
         lines = self.input_file.read().splitlines()
         n = int(lines[0])
-        return lines[1:n]
+        return lines[1:n + 1]
 
     def _validate_line(self, line):
         """
